@@ -336,6 +336,9 @@ section{
     #menu-icon{
         display: block;
     }
+    .spanEmail{
+        font-size: 10pt;
+    }
     .navbar{
         position: absolute;
         top: 100%;
