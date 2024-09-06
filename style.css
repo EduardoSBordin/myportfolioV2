@@ -18,6 +18,15 @@ html{
     --second-bg-color: #001005;
     --text-color: white;
     --main-color: #00ff51;
+
+    transition: .3s;
+}
+:root.activeMode{
+    --bg-color: #ffffff;
+    --second-bg-color: #f3f3f3;
+    --text-color: rgb(0, 0, 0);
+    --main-color: #00ff51;
+    transition: .3s;
 }
 body{
     background: var(--bg-color);
@@ -381,4 +390,10 @@ section{
 .imgProjects{
     width: 100%;
     border-radius: 15px;
+}
+.btnDarkMode{
+    margin-left: 20px;
+    background: transparent;
+    color: white;
+    font-size: 14pt;
 }
