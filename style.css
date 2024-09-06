@@ -30,12 +30,17 @@ body{
     top: 0;
     left: 0;
     padding: 4rem 12%;
-    background: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
+    /* background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px); */
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 #menu-icon{
     font-size: 3.6rem;
@@ -83,6 +88,8 @@ section{
     flex-direction: column;
     align-items: flex-end;
     text-align: right;
+
+    background: rgba(255, 0, 0, 0);
 }
 .home-content h1{
     font-size: 8rem;
@@ -99,11 +106,16 @@ section{
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.8;
+    
+}
+.pTxtMain{
+    margin-top: 20px;
 }
 .home-img img{
 
     width: 32vw;
     border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
     transition: 0.4s ease-in-out;
 }
 .home-img img:hover{
