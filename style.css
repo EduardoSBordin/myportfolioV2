@@ -53,7 +53,7 @@ body{
 }
 #menu-icon{
     font-size: 3.6rem;
-    color: var(--main-color);
+    color: #008dc0;
     display: none;
 }
 .logo{
@@ -339,8 +339,8 @@ section{
         width: 50%;
         padding: 1rem 3rem;
         background: rgba(0, 0, 0, 0.842);
-        border-left: 2px solid var(--main-color);
-        border-bottom: 2px solid var(--main-color);
+        border-left: 2px solid #008dc0;
+        border-bottom: 2px solid #008dc0;
         border-bottom-left-radius: 2rem;
         display: none;
     }
